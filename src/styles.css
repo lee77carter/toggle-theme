@@ -3,15 +3,15 @@ body {
 }
 
 .App.light {
-  --primary-color: #0074d9;
-  --secondary-color: #fc7147;
+  --primary-color: #3d96df;
+  --secondary-color: #3d96df;
   --background-color: #ffffff;
   --text-color: #000000;
 }
 
 .App.dark {
-  --primary-color: #7fdbff;
-  --secondary-color: #5295cf;
+  --primary-color: #f07422;
+  --secondary-color: #f07422;
   --background-color: #000000;
   --text-color: #ffffff;
 }
