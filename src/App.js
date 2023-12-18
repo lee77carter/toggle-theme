@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import { useState, useEffect } from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className={`App`}>
+      <div className="wrapper">
+        <button>Toggle theme</button>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <span className="accent">Fiona the flamingo loved to travel.</span>{" "}
+          She flew over mountains, deserts, and oceans, making new friends along
+          the way. When she returned home, she had amazing stories to share and
+          was ready for her next adventure. But alas, she had not learned to
+          code, so her story was nowhere near as inpiring as it could have been.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
